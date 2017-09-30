@@ -13,4 +13,10 @@ section {
   width: 50%;
   line-height: 1.75em;
   margin: 0 auto;
+  text-align: justify;
+}
+
+.pull-right {
+  text-align: right;
+  display: block;
 }
