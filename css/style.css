@@ -20,3 +20,30 @@ section {
   text-align: right;
   display: block;
 }
+
+.new {
+  animation-duration: 1.25s;
+  animation-name: flashing;
+  color: red;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing {
+  0% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.trolling {
+  animation: 1s vue infinite;
+}
+
+@keyframes vue {
+  50% {
+    visibility: hidden;
+    color: green;
+    content: 'Vue'
+  }
+}
